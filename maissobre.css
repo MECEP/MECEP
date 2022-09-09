@@ -162,11 +162,29 @@ section{
     z-index: 5;
 }
 
-.left-login image{
-    width: 30vw;
-    
-}
+
 .boxing img{
     width: 400px;
+    margin-top: 16%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 30%;
+    width: 105%;
+    height: 70%;
 }
+
+p{
+font: roboto;
+
+}
+
+.inf{
+    font-size: 20px;
+}
+span{
+    font-size: 1.4em;
+        color: #7b4cd9;
+}
+
 
