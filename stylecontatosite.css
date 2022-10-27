@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(50,50,50 );
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ header .logo{
+        position: relative;
+        max-width: 150px;
+        margin-top: -10px;
+        margin-left: -5px;
+    
+    }
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.boxing{
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    z-index: 5;
+}
+
+
+.boxing img{
+    width: 400px;
+    margin-top: 14%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 14%;
+    width: 80%;
+    height: 61%;
+}
+
+.circle{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7b4cd9;
+    clip-path: circle(50% at bottom right);
+
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none   ;
+    font-size: 300px;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h1{
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height:50px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(132, 14, 201);
+
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 300px;
+    margin-left: 420px;
+    margin-top: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 70%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+
+    
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+select{
+    height: 40px;
+    width: 65%;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+h3{
+    font-size: xx-large;
+    margin-top: -15px;
+    
+}
+
+img.img2{
+width: 40px;
+    margin-left: -10%;
+    margin-top: -30%;
+}
+
+a{
+font-size: xx-large;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    
+.asidezin{
+    width: -0px;
+    font-size: -10px !important;
+    
+}
+
+img{
+    width: 0px;
+}
+}
