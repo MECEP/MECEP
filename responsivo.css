@@ -1,0 +1,121 @@
+/*index*/
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    header .logo{
+        width: 75px;
+        margin-left: -100px;
+}
+
+header .navegation ul{
+    width: 30px;
+    margin-left: -100px;
+}
+.container .text{
+   width: 7px ;
+   font-size: 18px;
+   margin-left: 2px;
+}
+
+
+.container .text h2{
+    width: 1300px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.boxing{
+
+   width: 10px;
+   margin-right: 160px;
+   margin-top: -100px;
+
+}
+
+.text{
+    width: 100px;
+}
+.circle{
+    width: 200px;
+    margin-left: 150px;
+    margin-top: -330px;
+}
+.container{
+    margin-left: -80px;
+}
+a .maissobre{
+    margin-right: 1000px;
+    width: 1px;
+}
+.boxing .img1{
+    width: 170px;   
+}
+
+.img1{
+    margin-top: -3600%;
+    position: absolute;
+
+}
+
+.circle{
+    margin-top: -200px; 
+    width: 0;   
+}
+}
+
+a.ini:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+/*mais sobre*/
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .circle{
+width: 0px;
+    }
+    .container{
+        margin-left: -80px;
+    }
+    .img2{
+        width: 300px;
+        height: 300px;
+    }
+    img.logo{
+        width: 85px;
+}
+header{
+    margin-left: -70px;
+}
+ a.ini{
+     width: 10px;
+ }
+ img.img1{
+     width: 0px;
+ }
+}
+
+/*contato*/
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    
+    .asidezin{
+        width: -0px;
+        font-size: -10px !important;
+        
+    }
+    
+    img{
+        width: 0px;
+    }
+    div.circle{
+        width: 0px;
+    }
+    .www{
+        margin-left: 35px ;
+    }
+    .ggg{
+        margin-left: 0px;
+    }
+    aside{
+        margin-top: -70px;
+    }
+    }
